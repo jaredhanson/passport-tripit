@@ -1,0 +1,16 @@
+{
+  "name": "passport-tripit",
+  "version": "0.1.0",
+  "description": "TripIt authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-tripit.git"
+  },
+  "main": "./lib/passport-tripit",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.1"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "tripit", "auth", "authn", "authentication", "identity"]
+}
