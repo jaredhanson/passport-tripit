@@ -91,6 +91,12 @@ vows.describe('TripItStrategy').addBatch({
         assert.equal(profile.username, 'jaredhanson');
         assert.equal(profile.displayName, 'Jared Hanson');
       },
+      'should set raw property' : function(err, profile) {
+        assert.isString(profile._raw);
+      },
+      'should set json property' : function(err, profile) {
+        assert.isObject(profile._json);
+      },
     },
   },
   
